@@ -25,12 +25,12 @@ tracing_dependencies = [
 ]
 
 setup(
-    name="panini",
-    version="0.8.4",
+    name="panini-patched",
+    version="0.8.5",
     description="A python messaging framework for microservices based on NATS",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    url="https://github.com/lwinterface/panini",
+    url="https://github.com/peterclemenko/panini",
     author="Op Return SA, developers: Andrii Volotskov, Danylo Tiutiushkin",
     author_email="example@example.com",
     python_requires=">=3.8.3",
@@ -43,6 +43,7 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3 :: Only",
         "Operating System :: POSIX :: Linux",
         "Operating System :: MacOS :: MacOS X",
