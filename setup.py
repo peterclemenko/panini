@@ -57,7 +57,7 @@ setup(
         "panini.managers",
     ],
     install_requires=[
-        "async-timeout==4.0.0",
+        "async-timeout==4.0.3",
         "nats-py==2.6.0",
         "websocket-client>=1.2.3",
         "requests>=2.31.0",
